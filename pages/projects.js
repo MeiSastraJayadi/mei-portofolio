@@ -6,6 +6,8 @@ import Cars from '../public/images/cars.png';
 import Tours from '../public/images/tour.png'; 
 import Porto from '../public/images/portofolio.png'; 
 import Layout from "../components/layouts/out";
+import Bytelamp from "../public/images/bytelamp-portal.jpg";
+import Jobzenix from "../public/images/jobzenix.png";
 
 const Projects = () => {
   return (
@@ -33,6 +35,16 @@ const Projects = () => {
           <Section>
             <ProjectGridItem id={'portofolio'} href={'/'} title={'My Portofolio Site'} thumbnail={Porto}>
               My personal portofolio site
+            </ProjectGridItem>
+          </Section>
+          <Section>
+            <ProjectGridItem id={'bytelamp'} href={'https://bytelamp.com'} title={'Bytelamp Portal'} thumbnail={Bytelamp}>
+              Bytelamp Portal blends tech insights, dev tools, and affiliate marketing strategies into one platform built for innovation and growth.
+            </ProjectGridItem>
+          </Section>
+          <Section>
+            <ProjectGridItem id={'jobzenix'} href={'https://jobzenix.site'} title={'Jobzenix'} thumbnail={Jobzenix}>
+            Jobzenix.site is an upcoming remote job portal currently under development. The platform is designed to connect talent with global opportunities, focusing on flexibility, accessibility, and the growing demand for remote work.
             </ProjectGridItem>
           </Section>
         </SimpleGrid>

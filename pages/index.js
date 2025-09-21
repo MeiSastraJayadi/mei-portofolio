@@ -1,8 +1,11 @@
 import { Box, 
+  Button, 
   Container, 
   Heading, Image, 
+  Link, 
   SimpleGrid, 
   useColorModeValue} from "@chakra-ui/react";
+import NextLink from 'next/link';
 import Section from "../components/section";
 import Paragraph from "../components/paragraph";
 import Quote from "../components/quote";
@@ -17,6 +20,13 @@ import Tensorflow from '../public/images/tensorflow-original.svg'
 import Css from '../public/images/css3-original.svg';
 import Html from '../public/images/html5-original.svg';
 import Laravel from '../public/images/laravel-plain.svg'
+import NuxtImage from "../public/images/nuxtjs-plain.svg";
+import NextImage from "../public/images/nextjs-plain.svg";
+import Docker from "../public/images/docker-plain.svg";
+import Tailwind from "../public/images/tailwindcss-original.svg";
+import Nginx from "../public/images/nginx-original.svg";
+import Bash from "../public/images/bash-plain.svg";
+
 
 const Page = () => {
   return (
@@ -34,7 +44,7 @@ const Page = () => {
             <Heading as={'h2'} variant={"page-title"}>
               I Made Mei Sastra Jayadi
             </Heading>
-            <p>Student / Developer</p>
+            <p>Fullstack Developer</p>
           </Box>
           <Box 
             mt={{base : 4, md: 0}}
@@ -47,7 +57,7 @@ const Page = () => {
               maxWidth="120px"
               display="inline-block"
               borderRadius="full"
-              src="/images/mei.jpeg"
+              src="/images/mei-profil.jpeg"
               alt="Profile image"
               borderWidth={2}/>
           </Box>
@@ -58,10 +68,11 @@ const Page = () => {
             About Me
           </Heading>
           <Paragraph>
-            Hi, I am Mei. I am a Balinese Developer. 
-            I ussualy develop a web application or mobile application.
-            I very interested on data science, backend development, and mobile development field 
-            . I love to play guitar and love to listen rock music.
+          I am a web and software developer with solid full-stack expertise, actively expanding my knowledge in cloud computing and IT infrastructure. 
+          With 2 years of professional experience, I have built and maintained scalable applications using Next.js, Nuxt.js, and PHP as my primary technologies.
+          </Paragraph>
+          <Paragraph>
+          Beyond my technical foundation, I am passionate about designing efficient solutions that bridge functionality and user experience. My journey in tech is driven by curiosity and continuous learning, allowing me to adapt quickly to evolving technologies and industry standards. I aim to grow not only as a developer but also as a problem-solver who can deliver impactful digital solutions.
           </Paragraph>
         </Section>
         <Section delay={0.2}>
@@ -73,8 +84,8 @@ const Page = () => {
             Born in Bali (Denpasar), Indonesia
           </BioSection>
           <BioSection>
-            <BioYear>2021 - Present</BioYear>
-            Study in Institut Bisnis dan Teknologi Indonesia (INSTIKI)
+            <BioYear>2021 - 2025</BioYear>
+            Graduated from Institut Bisnis dan Teknologi Indonesia (INSTIKI) on 2025
           </BioSection>
           <BioSection>
             <BioYear>2022 - 2023</BioYear>
@@ -87,10 +98,31 @@ const Page = () => {
         </Section>
         <Section delay={0.2}>
           <Heading as={'h3'} variant={'section-title'}>
+            Career
+          </Heading>
+          <BioSection>
+            <BioYear>2022 - Now</BioYear>
+            Fullstack Developer - Freelance
+          </BioSection>
+          <BioSection>
+            <BioYear>2024 - Now</BioYear>
+            Junior PHP Developer - PT Cemarne Balicasa TheEcolodges
+          </BioSection>
+        </Section>
+        <Section delay={0.2}>
+          <Heading as={'h3'} variant={'section-title'}>
             Tech Stack
           </Heading>
         </Section>
         <SimpleGrid columns={[2, 2, 2]} gap={2} align="center">
+        <Section>
+            <GridItem title={'Nuxt.JS'} thumbnail={NuxtImage}>
+            </GridItem>
+          </Section>
+          <Section>
+            <GridItem title={'Next.JS'} thumbnail={NextImage}>
+            </GridItem>
+          </Section>
           <Section>
             <GridItem title={'Python'} thumbnail={Python}>
             </GridItem>
@@ -123,7 +155,28 @@ const Page = () => {
             <GridItem title={'HTML'} thumbnail={Html}>
             </GridItem>
           </Section>
+          <Section>
+            <GridItem title={'Docker'} thumbnail={Docker}>
+            </GridItem>
+          </Section>
+          <Section>
+            <GridItem title={'Tailwind CSS'} thumbnail={Tailwind}>
+            </GridItem>
+          </Section>
+          <Section>
+            <GridItem title={'Nginx'} thumbnail={Nginx}>
+            </GridItem>
+          </Section>
+          <Section>
+            <GridItem title={'Bash Scripting'} thumbnail={Bash}>
+            </GridItem>
+          </Section>
         </SimpleGrid>
+        <Container style={{display: "flex", justifyContent : 'center', marginTop: '10px'}}>
+          <Button style={{backgroundColor: "#5D12D2", color : "#fff", display: 'flex', alignItems: 'center'}}>
+            <Link as={NextLink} style={{color : "white"}} href="/projects">See Project</Link>
+          </Button>
+        </Container>
       </Container>
     </Layout>
     

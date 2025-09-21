@@ -21,10 +21,10 @@ const Quote = () => {
       >
         <Heading as={'h3'} variant={'page-title'} size={'md'}>
           <Text as='i'>
-            "I Know Nothing, It Just Work"
+            "In Every Click and Line of Code, There is a Part of Me"
           </Text>
           <By>
-            - Me
+            - Mei
           </By>
         </Heading>
       </Box>
