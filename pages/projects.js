@@ -9,6 +9,7 @@ import Layout from "../components/layouts/out";
 import Bytelamp from "../public/images/bytelamp-portal.jpg";
 import Jobzenix from "../public/images/jobzenix.png";
 
+
 const Projects = () => {
   return (
     <Layout>
@@ -45,6 +46,11 @@ const Projects = () => {
           <Section>
             <ProjectGridItem id={'jobzenix'} href={'https://jobzenix.site'} title={'Jobzenix'} thumbnail={Jobzenix}>
             Jobzenix.site is an upcoming remote job portal currently under development. The platform is designed to connect talent with global opportunities, focusing on flexibility, accessibility, and the growing demand for remote work.
+            </ProjectGridItem>
+          </Section>
+          <Section>
+            <ProjectGridItem id={'animart'} href={'https://jobzenix.site'} title={'Animart'} thumbnail={'https://animart.vercel.app/assets/animart-D9Uf35G2.png'}>
+            Animart is a frontend application built with React to present anime-related information using Jikan API.
             </ProjectGridItem>
           </Section>
         </SimpleGrid>
