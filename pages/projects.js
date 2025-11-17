@@ -8,7 +8,7 @@ import Porto from '../public/images/portofolio.png';
 import Layout from "../components/layouts/out";
 import Bytelamp from "../public/images/bytelamp-portal.jpg";
 import Jobzenix from "../public/images/jobzenix.png";
-
+import Animart from "../public/images/animart.png";
 
 const Projects = () => {
   return (
@@ -49,7 +49,7 @@ const Projects = () => {
             </ProjectGridItem>
           </Section>
           <Section>
-            <ProjectGridItem id={'animart'} href={'https://jobzenix.site'} title={'Animart'} thumbnail={'https://animart.vercel.app/assets/animart-D9Uf35G2.png'}>
+            <ProjectGridItem id={'animart'} href={'https://animart.vercel.app'} title={'Animart'} thumbnail={Animart}>
             Animart is a frontend application built with React to present anime-related information using Jikan API.
             </ProjectGridItem>
           </Section>
