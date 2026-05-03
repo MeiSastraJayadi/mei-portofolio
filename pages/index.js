@@ -16,9 +16,8 @@ import Python from '../public/images/python-original.svg'
 import FastApi from '../public/images/fastapi-original-wordmark.svg';
 import Golang from '../public/images/go-original.svg';
 import Flutter from '../public/images/flutter-original.svg';
-import Tensorflow from '../public/images/tensorflow-original.svg'
-import Css from '../public/images/css3-original.svg';
-import Html from '../public/images/html5-original.svg';
+import Typescript from '../public/images/typescript-plain.svg';
+import NodeJs from '../public/images/nodejs-line-wordmark.svg';
 import Laravel from '../public/images/laravel-plain.svg'
 import NuxtImage from "../public/images/nuxtjs-plain.svg";
 import NextImage from "../public/images/nextjs-plain.svg";
@@ -37,7 +36,7 @@ const Page = () => {
             borderRadius={'lg'} color={useColorModeValue('blackAlpha.700', 'white')}
             marginBottom={6}
         >
-          Hello, I am a FullStack Developer from Bali
+          Hello, I am a FullStack Developer 
         </Box>
         <Box display={{ md:'flex' }}>
           <Box flexGrow={1}>
@@ -69,7 +68,7 @@ const Page = () => {
           </Heading>
           <Paragraph>
           I am a web and software developer with solid full-stack expertise, actively expanding my knowledge in cloud computing and IT infrastructure. 
-          With 2 years of professional experience, I have built and maintained scalable applications using Next.js, Nuxt.js, and PHP as my primary technologies.
+          With 2 years of professional experience, I have built and maintained scalable applications using Next.js, Nuxt.js, Node.js and PHP as my primary technologies.
           </Paragraph>
           <Paragraph>
           Beyond my technical foundation, I am passionate about designing efficient solutions that bridge functionality and user experience. My journey in tech is driven by curiosity and continuous learning, allowing me to adapt quickly to evolving technologies and industry standards. I aim to grow not only as a developer but also as a problem-solver who can deliver impactful digital solutions.
@@ -101,12 +100,12 @@ const Page = () => {
             Career
           </Heading>
           <BioSection>
-            <BioYear>2022 - Now</BioYear>
-            Fullstack Developer - Freelance
+            <BioYear>2024 - 2026</BioYear>
+            Junior PHP Developer - PT Cemarne Balicasa TheEcolodges
           </BioSection>
           <BioSection>
-            <BioYear>2024 - Now</BioYear>
-            Junior PHP Developer - PT Cemarne Balicasa TheEcolodges
+            <BioYear>2022 - Now</BioYear>
+            Fullstack Developer - Freelance
           </BioSection>
         </Section>
         <Section delay={0.2}>
@@ -115,12 +114,20 @@ const Page = () => {
           </Heading>
         </Section>
         <SimpleGrid columns={[2, 2, 2]} gap={2} align="center">
-        <Section>
+          <Section>
             <GridItem title={'Nuxt.JS'} thumbnail={NuxtImage}>
             </GridItem>
           </Section>
           <Section>
             <GridItem title={'Next.JS'} thumbnail={NextImage}>
+            </GridItem>
+          </Section>
+          <Section>
+            <GridItem title={'Node.JS'} thumbnail={NodeJs}>
+            </GridItem>
+          </Section>
+          <Section>
+            <GridItem title={'Typescript'} thumbnail={Typescript}>
             </GridItem>
           </Section>
           <Section>
@@ -136,23 +143,11 @@ const Page = () => {
             </GridItem>
           </Section>
           <Section>
-            <GridItem title={'Tensorflow'} thumbnail={Tensorflow}>
-            </GridItem>
-          </Section>
-          <Section>
             <GridItem title={'Flutter'} thumbnail={Flutter}>
             </GridItem>
           </Section>
           <Section>
             <GridItem title={'Laravel'} thumbnail={Laravel}>
-            </GridItem>
-          </Section>
-          <Section>
-            <GridItem title={'CSS'} thumbnail={Css}>
-            </GridItem>
-          </Section>
-          <Section>
-            <GridItem title={'HTML'} thumbnail={Html}>
             </GridItem>
           </Section>
           <Section>

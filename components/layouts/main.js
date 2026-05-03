@@ -9,7 +9,7 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name='viewport' content='width=device-width, initial-scale=1'/>
-        <title>Mei Sastra Jayadi - Home Page</title>
+        <title>Mei Sastra Jayadi</title>
       </Head>
       <Navbar path={router.asPath}/>
       <Container maxW={'container.md'} pt={14}>
@@ -18,7 +18,7 @@ const Main = ({ children, router }) => {
         </NoSsr>
         {children}
         <Heading mt={10} align="center" variant={'page-title'} fontSize={13} opacity={0.5}>
-          © 2023 Mei Sastra Jayadi. All Rights Reserved.
+          © 2026 Mei Sastra Jayadi. All Rights Reserved.
         </Heading>
       </Container>
     </Box>
