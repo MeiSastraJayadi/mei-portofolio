@@ -30,7 +30,7 @@ const Projects = () => {
             </ProjectGridItem>
           </Section>
           <Section>
-            <ProjectGridItem id={'animart'} href={'https://animart.vercel.app'} title={'Animart'} thumbnail={Animart}>
+            <ProjectGridItem id={'animart'} href={'https://animart-5q8hiubmq-mei-sastra-jayadis-projects.vercel.app/'} title={'Animart'} thumbnail={Animart}>
             Animart is a frontend application built with React to present anime-related information using Jikan API.
             </ProjectGridItem>
           </Section>
