@@ -9,6 +9,7 @@ import Bytelamp from "../public/images/bytelamp-portal.jpg";
 import Jobzenix from "../public/images/jobzenix.png";
 import Animart from "../public/images/animart.png";
 import Biohug from '../public/images/Biohug.svg'; 
+import PaymentGateway from '../public/images/solana-payment-gateway.svg'
 
 
 const Projects = () => {
@@ -27,6 +28,11 @@ const Projects = () => {
           <Section>
             <ProjectGridItem id={'biohug'} href={'https://biohug.site'} title={'Biohug'} thumbnail={Biohug}>
             A modern, feature-rich <span className="italic">Link-in-Bio</span> page builder that allows users to create beautiful, customizable landing pages for their social media profiles.
+            </ProjectGridItem>
+          </Section>
+          <Section>
+            <ProjectGridItem id={'novaGatePay'} href={'https://payment-gateway-apps.vercel.app/dashboard'} title={'Nova Gate Pay'} thumbnail={PaymentGateway}>
+            Nova gate pay is a fully on-chain payment infrastructure built with Rust and the Anchor framework. It allows merchants to register their accounts as Program Derived Addresses (PDAs), receive payments from customers via Solana wallets such as Phantom or Backpack, and have funds settled automatically through smart contract logic — all without a centralized intermediary. The frontend is built with React.js and Solana Wallet Adapter, providing a seamless Web3 user experience on devnet.
             </ProjectGridItem>
           </Section>
           <Section>
