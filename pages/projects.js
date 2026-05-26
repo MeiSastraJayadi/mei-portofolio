@@ -32,7 +32,7 @@ const Projects = () => {
           </Section>
           <Section>
             <ProjectGridItem id={'novaGatePay'} href={'https://payment-gateway-apps.vercel.app/dashboard'} title={'Nova Gate Pay'} thumbnail={PaymentGateway}>
-            Nova gate pay is a fully on-chain payment infrastructure built with Rust and the Anchor framework. It allows merchants to register their accounts as Program Derived Addresses (PDAs), receive payments from customers via Solana wallets such as Phantom or Backpack, and have funds settled automatically through smart contract logic — all without a centralized intermediary. The frontend is built with React.js and Solana Wallet Adapter, providing a seamless Web3 user experience on devnet.
+            A decentralized payment gateway built on Solana, enabling merchants to register on-chain and accept crypto payments with automatic settlement via smart contracts.
             </ProjectGridItem>
           </Section>
           <Section>
