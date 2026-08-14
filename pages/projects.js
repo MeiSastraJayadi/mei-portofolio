@@ -36,17 +36,12 @@ const Projects = () => {
             </ProjectGridItem>
           </Section>
           <Section>
-            <ProjectGridItem id={'animart'} href={'https://animart.vercel.app'} title={'Animart'} thumbnail={Animart}>
-            Animart is a frontend application built with React to present anime-related information using Jikan API.
-            </ProjectGridItem>
-          </Section>
-          <Section>
             <ProjectGridItem id={'portofolio'} href={'/'} title={'My Portofolio Site'} thumbnail={Porto}>
               My personal portofolio site
             </ProjectGridItem>
           </Section>
           <Section>
-            <ProjectGridItem id={'bytelamp'} href={'https://bytelamp.com'} title={'Bytelamp Portal'} thumbnail={Bytelamp}>
+            <ProjectGridItem id={'bytelamp'} href={'https://bytelamp.vercel.app/'} title={'Bytelamp Portal'} thumbnail={Bytelamp}>
               Bytelamp Portal blends tech insights, dev tools, and affiliate marketing strategies into one platform built for innovation and growth.
             </ProjectGridItem>
           </Section>
